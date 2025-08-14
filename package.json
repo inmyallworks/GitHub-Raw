@@ -1,1 +1,16 @@
-
+{
+  "name": "single-file-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "One-row SQLite api + raw download",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "sqlite3": "^5.1.6"
+  },
+  "engines": { "node": "22.18.0" }
+}
